@@ -1,15 +1,15 @@
 Package.describe({
   name: 'dblk:server-templates',
-  version: '0.0.5',
+  version: '0.0.6',
   summary: 'Server side template engine based on blaze 3',
-  git: 'https://github.com/felixble/meteor-server-templates',
+  git: 'https://github.com/DblK/meteor-server-templates',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('3.0.1');
+  api.versionsFrom('3.0.2');
   api.use([
-    'blaze@3.0.0',
+    'blaze@3.0.1',
     'ecmascript',
     'spacebars@2.0.0',
     'random',
